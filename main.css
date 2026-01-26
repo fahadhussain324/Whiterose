@@ -145,8 +145,10 @@
     background-color: rgb(228, 95, 95);
     padding: 10px;
     border-radius: 10px;
-    pointer: cursor;
+    cursor: pointer;
 }
+
+
 
 .about-us .info .speak-with-us-btn:hover{
     background-color: rgb(226, 43, 43);
