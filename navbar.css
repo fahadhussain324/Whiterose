@@ -1,0 +1,75 @@
+.navbar {
+    height: 70px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section {
+    align-items: left;
+    flex: 1;
+    padding-left: 30px;
+}
+
+.left-section h1 {
+    color: rgb(228, 95, 95);
+    font-weight: 700;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-section ul{
+    display: flex;
+}
+
+.middle-section ul li {
+    list-style: none;
+}
+
+.middle-section ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.middle-section ul li:hover a{
+    color: rgb(228, 95, 95)
+}
+
+.middle-section ul li:last-child a{
+    margin: 0;
+}
+
+.right-section {
+    display: flex;
+    flex: 1;
+    align-items: right;
+    justify-content: right;
+    padding-right:35px;
+}
+
+.get-started-btn {
+    background: rgb(228, 95, 95);
+    padding:  6px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;;
+}
+
+.get-started-btn:hover{
+    background-color: rgb(226, 43, 43);
+}
+

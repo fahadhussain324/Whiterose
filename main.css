@@ -1,0 +1,342 @@
+.main {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lims-title {
+    font-size: 32px;
+    font-weight: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-description{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second-description {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.features {
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 18px;
+}
+
+.features .item{
+    background-color: #292b2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0px 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features .item:hover{
+    border-color: rgb(228, 95, 95);
+}
+
+.features .item .icon{
+    width: 38px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.features .item:hover .icon{
+    background-color: rgb(226, 43, 43)
+}
+
+.features .item .icon i{
+    font-size: 20px;
+}
+
+.features .item .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .item .info h4{
+    color: rgb(228, 95, 95);
+    font-size: 22px;
+}
+
+.features .item .info p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.features .item > i{
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.features .item:hover > i{
+    color: rgb(226, 43, 43);
+}
+
+.about-us-seperator{
+    margin: 200px 50px 30px 90px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: inline-block;
+    color: rgb(228, 95, 95);
+    border-radius: 12px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us .info h4{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-us .info p{
+    color: #ccc;
+    font-size: 14px;
+}
+
+.about-us .info .speak-with-us-btn{
+    margin-top: 20px;
+    background-color: rgb(228, 95, 95);
+    padding: 10px;
+    border-radius: 10px;
+    pointer:
+}
+
+.about-us .info .speak-with-us-btn:hover{
+    background-color: rgb(226, 43, 43);
+}
+.about-us img{
+    width: 180px;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.skills .left{
+    width: 680px;
+    margin-top: 30px;
+}
+
+.skills .left .info h4{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills .left .info p{
+    color: #ccc;
+    font-size: 14px;
+}
+
+.skills .left .tech-stack{
+    margin-top: 30px;
+    background-color: rgb(228, 95, 95);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.skills .right{
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills .right .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383e45;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.skills .right .item i{
+    font-size: 34px;
+    color: #fff;
+
+}
+
+footer{
+    position: relative;
+    background-color: #1c1c1c;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgb(228, 95, 95);
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16%;
+    left: 15%;
+}
+
+footer .start p{
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+footer .start button:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+}
+
+footer .links-collection{
+    display: flex;
+    align-items: start;
+}
+
+footer .links-collection{
+    flex: 3;
+}
+
+footer .links-collection h4{
+    color: rgb(228, 95, 95);
+    margin-bottom: 20px;
+}
+
+footer .links-collection p{
+    color: #ccc;
+    font-size: 13px;
+}
+
+footer .links-collection .about{
+    flex: 3;
+}
+
+footer .links-collection .about h4{
+    color: rgb(228, 95, 95);
+    margin-bottom: 13px;
+}
+
+footer .links-collection .about p{
+    color: #ccc;
+    font-size: 13px;
+}
+
+footer .links-collection .social{
+    flex: 3;
+}
+
+footer .links-collection .social h4, footer .links-collection .news h4{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .links-collection a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .links-collection a:hover{
+    color: rgb(228, 95, 95);
+}
+
+footer .links-collection .news{
+    flex: 3;
+}
+
+footer .links-collection .news p{
+    color: #7b7b7b;
+    font-size: 15px;
+}
+
+footer .links-collection .news form{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .links-collection .news form input{
+    width: 100%;
+    background-color: #212529;
+    border: none;
+    padding: 13px;
+    border-radius: 100px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+footer .links-collection .news form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: rgb(228, 95, 95);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .links-collection .news form button:hover{
+    background-color: rgb(226, 43, 43);
+}
+
+footer .links-collection .news form button i{
+    font-size: 26px;
+}
