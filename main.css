@@ -145,7 +145,7 @@
     background-color: rgb(228, 95, 95);
     padding: 10px;
     border-radius: 10px;
-    pointer:
+    pointer: cursor;
 }
 
 .about-us .info .speak-with-us-btn:hover{
