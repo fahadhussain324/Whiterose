@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 340px;
+    padding-top: 400px;
 }
 
 .lims-title {
@@ -52,7 +54,7 @@
 }
 
 .features .item .icon{
-    width: 38px;
+    width: 34px;
     height: 34px;
     border-radius: 50%;
     display: flex;
@@ -97,19 +99,33 @@
     color: rgb(226, 43, 43);
 }
 
-.about-us-seperator{
-    margin: 200px 50px 30px 90px;
-    padding: 10px 20px;
+.separator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.about-us-seperator {
+    margin: 40px 50px 200px;
+    padding: 10px 100px;
     background-color: rgba(255, 255, 255, 0.08);
-    display: inline-block;
     color: rgb(228, 95, 95);
     border-radius: 12px;
+    text-align: center;
 }
+
 
 .about-us {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.about-us .info{
+    padding-left: 150px;
+    flex: 3;
 }
 
 .about-us .info h4{
@@ -136,15 +152,17 @@
     background-color: rgb(226, 43, 43);
 }
 .about-us img{
-    width: 180px;
+    width: 5px;
     margin: 50px;
     border-radius: 50px;
+    flex: 1;
 }
 
 .skills{
     display: flex;
     justify-content: space-around;
     padding: 0 50px;
+    padding-bottom: 200px;
 }
 
 .skills .left{
@@ -208,7 +226,7 @@ footer .start{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    background-color: rgb(228, 95, 95);
+    background-color: rgb(192, 80, 80);
     padding: 30px 25px;
     border-radius: 15px;
     width: 70%;
