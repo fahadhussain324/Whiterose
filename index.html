@@ -14,14 +14,13 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <header>
-			<div class="navbar">
+  <div class="navbar">
         <div class="left-section">
            <h1 class="header-name">WhiteRose</h1>
         </div>
         <div class="middle-section">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="current">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="products.html">Products</a></li>
             <li><a href="#">Contact</a></li>
@@ -31,7 +30,6 @@
           <button class="get-started-btn">Get Started</button>
         </div>
 			</div>
-  </header>
 
     <div class="main">
         <h2 class="lims-title">WhiteRose&trade; LIMS</h2>
@@ -76,7 +74,10 @@
       <a href="#about-us">
       <button class="about-us-seperator">About Us</button>
     </a>
+    <button class="print-btn" id="printBtn">Print Page</button>
     </div>
+
+
 
     <div class="about-us" id="about-us">
       <div class="info">
@@ -151,5 +152,8 @@
       </div>
     </div>
   </footer>
+
+  <noscript><p>JavaScript is required to use this website.</p></noscript>
+  <script src="script.js"></script>
 </body>
 </html>

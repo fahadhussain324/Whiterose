@@ -1,10 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #212529;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar {
+    position: sticky;
+    top: 0;
     height: 70px;
     padding-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 100;
+    background-color: #212529;
 }
 
 .left-section {
@@ -41,6 +65,12 @@
     transition: color 0.3s ease;
 }
 
+.middle-section ul li a.current{
+    color: rgb(228, 95, 95);
+    border-bottom: white 3px solid;
+    padding-bottom: 5px;
+}
+
 .middle-section ul li:hover a{
     color: rgb(228, 95, 95)
 }
@@ -48,7 +78,6 @@
 .middle-section ul li:last-child a{
     margin: 0;
 }
-
 .right-section {
     display: flex;
     flex: 1;
@@ -72,4 +101,3 @@
 .get-started-btn:hover{
     background-color: rgb(226, 43, 43);
 }
-
